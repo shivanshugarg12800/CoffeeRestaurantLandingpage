@@ -1,0 +1,168 @@
+/* font-family: 'Acme', sans-serif; */
+.transparent{
+    background-color: rgb(120,103,93);
+}
+.navbar-toggler-icon{
+    border: 5px solid black;
+    padding:30px;
+    background-color:rgba(180,134,72,0.3) ;
+}
+.nav-link, .navbar-brand{
+    color:#efdecd;
+    font-size: 30px;
+    font-style: italic;
+}
+.navbar a:hover{
+    color: whitesmoke !important;
+}
+
+header{
+    height: 100vh;
+    background: url(coffeeBG.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Acme', sans-serif;
+}
+
+
+
+.banner-center{
+    color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.banner-center h1{
+    background-color:   rgba(245,245,245,0.5);
+    color: #5d432c;
+    /* border: 2px solid whitesmoke; */
+    border: 2px solid #5d432c ;
+    border-radius: 30px;
+    padding: 5px 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.banner-center h1:hover{
+    background: transparent;
+    color: whitesmoke;
+    border-color: transparent;
+}
+
+.banner-center a{
+    margin-top: 20px;
+    font-size: 30px;
+    display: inline-block;
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0 auto;
+    padding: 2px 70px;
+}
+.banner-center a:hover,.banner-center a:focus {
+    background-color: whitesmoke;
+    color: #5d432c;
+}
+#skills{
+    background-color: rgba(180,134,72,0.3);
+    padding: 40px;
+    color: #534b4f;
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-underline{
+    width:300px;
+    margin: 0 auto 20px auto;
+    border: 2px solid #b7410e;
+}
+.row a{
+    font-size: 40pxpx;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background-color: #cc7722;
+    outline: none;
+    color: wheat;
+    font-weight: 300;
+}
+.row a:hover{
+    background-color:#b87333;
+    color: white;
+}
+#skills .fa{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+#about{
+    background-color:#534b4f;
+    color: whitesmoke;
+}
+#about #about-underline{
+    width:300px;
+    margin: 0 auto 20px auto;
+    border: 2px solid rgb(180,134,72);
+}
+#about h1{
+    margin-top: 10px;
+    font-family: 'Acme', 'sans-serif';
+}
+
+
+ #about .pic{
+     height:600px;
+    background: url(coffee2.jpg) no-repeat center center fixed;
+    background-size:cover;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid #534b4f;
+}
+#about .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#contact{
+    padding: 40px;
+    background-color: rgba(180,134,72,0.3);
+}
+#contact .form-control{
+    border-radius: 0 !important;
+    font-size: 20px;
+}
+
+#contact button{
+    background-color: #cc7722;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#contact button:hover{
+    color: white;
+    background-color:#b87333;
+    
+
+}
+#footer{
+    background-color:#534b4f;
+    color: whitesmoke;
+
+}
+#footer .footer-underline{
+    width:300px;
+    margin: 0 auto 20px auto;
+    border: 2px solid rgb(180,134,72);
+}
+.footer-icons .fa{
+    font-size: 40px;
+    margin: 10px;
+}
+.footer-icons .fa:hover{
+    color: whitesmoke;
+    font-size: 45px;
+}
+.copyrights h3{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
