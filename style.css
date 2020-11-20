@@ -17,7 +17,7 @@
 }
 
 header{
-    height: 100vh;
+    height: 80vh;
     background: url(coffeeBG.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: 'Acme', sans-serif;
@@ -27,7 +27,7 @@ header{
 
 .banner-center{
     color: whitesmoke;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
